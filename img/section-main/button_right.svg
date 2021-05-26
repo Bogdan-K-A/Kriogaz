@@ -1,7 +1,1 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect opacity="" x="0.5" y="0.5" width="39" height="39" stroke="#585858"/>
-<g opacity="">
-<line y1="-0.5" x2="7.07107" y2="-0.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 18 15)" stroke="#585858"/>
-<line x1="17.6464" y1="24.6464" x2="22.6464" y2="19.6464" stroke="#585858"/>
-</g>
-</svg>
+<svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#585858" d="M.5.5h39v39H.5z"/><g stroke="#585858"><path d="M17.646 15.354l5 5M17.646 24.646l5-5"/></g></svg>

@@ -1,7 +1,9 @@
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /* ===== ДОПОЛНЕНИЯ от Sandra Hrevtsova ===== */
-
+img {
+  display: block;
+}
 /* обнуляем дефолтные маркеры у всех маркированных списков */
 ul {
   list-style: none;
@@ -86,8 +88,8 @@ Improve consistency of default fonts in all browsers. (https://github.com/sindre
 
 body {
   font-family: system-ui, -apple-system,
-    /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto,
-    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 /*
