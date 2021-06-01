@@ -18,18 +18,18 @@ body {
 }
 
 .container {
-  width: 845px;
+  width: 825px;
   margin: 0 auto;
-  padding: 0 15px;
 
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 /* =================================HEADER=================================*/
 .nav-container {
-  padding: 0 405px;
+  margin: 0 405px;
   display: flex;
   align-items: center;
+  padding: 0 15px;
 }
 
 .header {
@@ -62,7 +62,7 @@ body {
 .nav-list {
   display: flex;
 
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 13px;
   line-height: 1.23;
 
@@ -95,9 +95,12 @@ body {
 .header::after {
   content: '';
   position: absolute;
+  left: 0;
+  top: 109px;
+
   width: 100%;
   height: 1px;
-  top: 109px;
+
   background-color: var(--primari-white-color);
 }
 /* =================================HEADER AND=================================*/
@@ -115,9 +118,9 @@ body {
 .project-bg {
   position: absolute;
   top: 0%;
-  left: -63.6%;
+  left: -67%;
 
-  width: 1135px;
+  width: 1156px;
   height: 100%;
   background-color: var(--section-bg-color);
 
@@ -142,26 +145,25 @@ body {
 
 .project-desc-box {
   position: absolute;
-  right: 49%;
+  right: 48%;
   bottom: 13%;
+}
+
+.project-desc-box-text {
+  width: 428px;
+  margin-bottom: 47px;
+
+  background-color: var(--primari-white-color);
+  box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
 }
 
 .project-desc {
   top: 163px;
-  left: 0;
-  margin-bottom: 47px;
-
   padding: 30px 40px 46px;
 
   font-family: Montserrat;
   font-size: 13px;
   line-height: 1.69;
-
-  width: 428px;
-  height: 200px;
-
-  background-color: var(--primari-white-color);
-  box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
 }
 
 .project-button {
@@ -169,6 +171,7 @@ body {
   align-items: flex-end;
   margin-right: 313px;
 }
+
 .project-button a {
   fill: transparent;
   stroke: #585858;
@@ -181,3 +184,120 @@ body {
 .project-button li:not(:last-child) {
   margin-right: 5px;
 }
+/* ------------------------------- Проэкты and ------------------------------ */
+
+/* --------------------------------- Новости -------------------------------- */
+.news .container {
+  position: relative;
+  padding: 100px 0;
+}
+
+.news .section-title {
+  margin-bottom: 20px;
+}
+
+.news .project-bg {
+  position: absolute;
+  top: 0%;
+  left: 73%;
+
+  width: 785px;
+  height: 100%;
+  background-color: var(--section-bg-color);
+
+  z-index: -1;
+}
+
+.btn-news {
+  display: inline-block;
+  padding: 13px 26px;
+
+  margin: 10px 0 16px auto;
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+
+  color: var(--primari-white-color);
+  background: #0f4898;
+}
+
+.news-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-list .news-item {
+  width: 255px;
+  background: var(--primari-white-color);
+  box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.9);
+}
+
+.news-card-content {
+  padding: 30px 20px 20px;
+}
+
+.news-card-content .text,
+.news-card-content {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 1.27;
+  letter-spacing: 0.05em;
+}
+
+.news-card-content h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.03em;
+
+  color: #303942;
+}
+
+.news-card-content h3,
+.news-card-data {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.news-item .btn-news {
+  margin: 0 0 30px 18px;
+}
+
+.section-title-flex {
+  display: flex;
+  margin-bottom: 40px;
+}
+/* ------------------------------- Новости and ------------------------------ */
+
+/* --------------------------------- Footer --------------------------------- */
+.footer {
+  padding: 40px 0;
+  background-color: var(--primari-footer-color);
+  text-align: center;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.05em;
+
+  color: var(--primari-white-color);
+}
+
+.footer-list li:not(:last-child) {
+  margin-right: 25px;
+}
+
+.adress {
+  font-size: 11px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  color: var(--footer-text-color);
+}
+/* --------------------------------- Footer and--------------------------------- */
